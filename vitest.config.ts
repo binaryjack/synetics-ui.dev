@@ -16,9 +16,9 @@ export default defineConfig({
   ],
   test: {
     globals: true,
-    environment: 'jsdom',
+    environment: 'happy-dom',
     setupFiles: ['./src/showcase/__tests__/setup.ts'],
-    include: ['src/showcase/**/__tests__/**/*.test.ts', 'src/showcase/**/*.test.ts'],
+    include: ['src/__tests__/**/*.test.ts', 'src/showcase/**/__tests__/**/*.test.ts', 'src/showcase/**/*.test.ts'],
     coverage: {
       provider: 'v8',
       reporter: ['text', 'json', 'html'],
@@ -32,7 +32,7 @@ export default defineConfig({
       '@synetics/synetics.dev': path.resolve(__dirname, '../synetics.dev/src'),
       '@': path.resolve(__dirname, 'src'),
     },
-    extensions: ['.syn', '.ts', '.tsx', '.js', '.jsx', '.json'],
+    extensions: ['.ts', '.tsx', '.js', '.jsx', '.syn', '.json'],
   },
   assetsInclude: [],
   optimizeDeps: {

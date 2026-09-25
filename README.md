@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/binaryjack/synetics-design-system/main/art-kit/SVG/pulsar-logo.svg" alt="Synetics UI" width="400"/>
-</p>
+# @synetics/ui
 
 <p align="center">
   <strong>Component library for the Synetics framework</strong>

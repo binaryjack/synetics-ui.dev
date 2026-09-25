@@ -1,6 +1,6 @@
 /**
- * Toggle component exports
+ * Toggle component exports (FSP Slice)
  */
 
-export { Toggle } from './toggle.syn';
-export type { IToggleProps } from './toggle.type';
+export { Toggle, type IToggleProps } from './toggle.js';
+export type { IToggleProps as ILegacyToggleProps } from './toggle.type';

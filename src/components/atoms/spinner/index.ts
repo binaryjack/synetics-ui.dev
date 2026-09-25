@@ -1,6 +1,6 @@
 /**
- * Spinner component exports
+ * Spinner component exports (FSP Slice)
  */
 
-export { Spinner } from './spinner.syn';
-export type { ISpinnerProps } from './spinner.type';
+export { Spinner, type ISpinnerProps } from './spinner.js';
+export type { ISpinnerProps as ILegacySpinnerProps } from './spinner.type';

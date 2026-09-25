@@ -1,6 +1,6 @@
 /**
- * Badge component exports
+ * Badge component exports (FSP Slice)
  */
 
-export { Badge } from './badge.syn';
-export type { IBadgeProps } from './badge.type';
+export { Badge, type IBadgeProps } from './badge.js';
+export type { IBadgeProps as ILegacyBadgeProps } from './badge.type';

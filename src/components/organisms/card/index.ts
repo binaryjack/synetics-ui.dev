@@ -1,6 +1,6 @@
 /**
- * Card component exports
+ * Card component exports (FSP Slice)
  */
 
-export { Card } from './card.syn';
-export type { ICardProps } from './card.type';
+export { Card, type ICardProps } from './card.js';
+export type { ICardProps as ILegacyCardProps } from './card.type';

@@ -1,6 +1,6 @@
 /**
- * Input component exports
+ * Input component exports (FSP Slice)
  */
 
-export { Input } from './input.syn';
-export type { IInputProps } from './input.type';
+export { Input, type IInputProps } from './input.js';
+export type { IInputProps as ILegacyInputProps } from './input.type';
