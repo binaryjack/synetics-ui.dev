@@ -174,7 +174,7 @@ pnpm add @synetics/ui
 
 The component library requires:
 
-- `pulsar` - The Synetics framework
+- `synetics` - The Synetics framework
 - `@synetics/design-tokens` - Design system tokens
 - `tailwindcss` - Utility-first CSS framework
 
